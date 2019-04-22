@@ -341,8 +341,6 @@ h3:after
 	display: grid;
 	grid-template-columns: auto auto;
 	justify-content: space-around;
-	max-height: 400px;
-	height: 100%;
 	padding-bottom: 85px;
 	padding-top: 85px;
 	width: 86%;
@@ -356,7 +354,7 @@ h3:after
 }
 .mocup_text
 {
-	width: 100%;
+	width: 90%;
 }
 .mocup_text h2 
 {
@@ -380,9 +378,6 @@ h3:after
 	font-family: Raleway Regular;
 	color: white;
 	line-height: 1.5;
-	padding-right: 1%;
-	height: 100px;
-	width: 520px;
 }
 .mocup button
 {
@@ -1219,7 +1214,7 @@ input[type="text"], input[type="email"]
 
 
 
-@media screen and (max-width: 420px)
+@media screen and (max-width: 470px)
 {
 	.header-container
 	{
@@ -1227,6 +1222,121 @@ input[type="text"], input[type="email"]
 		display: flex;
 		justify-content: space-around;
 	}
+	button.team_button 
+	{
+		width: 120px;
+		border: 1px solid white;
+		padding: 10px 25px;
+		text-align: center;
+		margin-top: 20px;
+		background-color: #fd2f2f;
+		cursor: pointer;
+		color: #fff;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	.slicke_circle {
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 8px;
+	    border: 1px solid white;
+	    background-color: transparent;
+	    float: left;
+    margin-right: 15px;
+}
+h5 {
+    width: 50%;
+    font-family: Raleway Regular, Arial;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #676767;
+    text-align: center;
+}
+h3
+{
+	font-size: 30px;
+	padding-top: 50px;
+}
+.toggles {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    }
+.latest_block9 img
+{
+	max-width: 100%;
+}
+
+.mocup_container
+{
+	display: grid;
+	grid-template-columns: auto;
+	padding-bottom: 65px;
+	padding-top: 65px;
+	width: 90%;
+	justify-content: center;
+}
+.img_mocup
+{
+	width: 70%;
+	margin: 0 auto;
+}
+.img_mocup img 
+{
+    max-width: 100%;
+    padding: 0;
+}
+.mocup_text h2
+{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+.mocup_text
+{
+	text-align: center;
+}
+.mocup_text h2::after
+{
+	margin: 10px auto;
+}
+button.team_button
+{
+	width: 140px;
+	margin: 20px auto;
+	text-align: center;
+}
+.mocup_text p
+{
+	text-align: center;
+	padding-top: 20px;
+}
+.something_all {
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.search_window {
+    max-width: 1170px;
+    width: 90%;
+    height: 50px;
+}
+.box_search {
+    width: 70px;
+    height: 50px;
+}
+.search_badge{
+    width: 40px;
+    height: 40px;
+}
+.box_all 
+{
+    width: 140px;
+    height: 50px;
+}
 }
 @media screen and (max-width: 1100px)
 {
@@ -1298,11 +1408,9 @@ input[type="text"], input[type="email"]
 {
 	display: grid;
 	grid-template-columns: auto;
-	max-height: 700px;
-	height: 100%;
 	padding-bottom: 65px;
 	padding-top: 65px;
-	max-width: 100%;
+	width: 90%;
 	margin: 0 auto;
 
 }
@@ -1322,7 +1430,7 @@ input[type="text"], input[type="email"]
 }
 .footer_block
 {
-	max-width: 1600px;
+	width: 100:;
 	height: 200px;
 	background-color: #191919;
 }
@@ -1340,9 +1448,10 @@ input[type="text"], input[type="email"]
 	{
 		font-size: 30px;
 	}
-	h1
+	.home h1
 	{
-		font-size: 50px;
+		font-size: 40px;
+
 	}
 	.table_service
 {
@@ -1526,7 +1635,7 @@ input[type="text"], input[type="email"]
 	margin-top: 5px;
 }
 }
-@media screen and (max-width: 1300px)
+@media screen and (min-width: 470px) and (max-width: 1300px)
 {
 	.scill_container
 {
@@ -1602,11 +1711,9 @@ input[type="text"], input[type="email"]
 {
 	display: grid;
 	grid-template-columns: auto;
-	max-height: 700px;
-	height: 100%;
 	padding-bottom: 65px;
 	padding-top: 65px;
-	max-width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 .button_scill
