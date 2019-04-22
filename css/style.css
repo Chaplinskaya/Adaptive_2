@@ -1149,8 +1149,8 @@ input[type="text"], input[type="email"]
 }
 .footer_block
 {
-	max-width: 1600px;
-	height: 100px;
+	width: 100%;
+	height: 120px;
 	background-color: #191919;
 }
 .copyright p
@@ -1392,6 +1392,23 @@ button.team_button
 		top: 30px;
 		right: -35px;
 	}
+	.social 
+	{
+    float: none;
+    margin: 0px auto;
+
+}
+.copyright
+{
+	margin: 0 auto;
+	float: none;
+}
+.copyright p
+{
+	margin: 0 auto;
+	padding: 20px 10px;
+    text-align: center;
+}
 }
 @media screen and (min-width: 620px) and (max-width: 1250px)
 	
@@ -1603,13 +1620,18 @@ button.team_button
 {
 	display: grid;
 	grid-template-columns: auto;
-	justify-content: space-evenly;
 	width: 90%;
 	margin-top: 20px;
+	margin: auto;
+}
+.container1
+{
+	width: 500px;
+	text-align: center;
 }
 .container2
 {
-	width: 700px;
+	width: 500px;
 	text-align: center;
 }
 .title1 p::after
@@ -1658,7 +1680,28 @@ button.team_button
 	margin: 0 auto;
 	align-self: center;
 }
-
+.dws-submit {
+    padding: 20px 75px;
+    margin: 20px 10px 20px 0px;
+    }
+.container1 {
+    
+    margin: 0 auto;
+}
+.container2
+{
+	width: 100%;
+	text-align: center;
+	 margin: 0 auto;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 50px;
+}
+.message > input[type="text"] {
+    width: 100%;
+    height: 180px;
+}
 .something
 {
 	margin-top: 100px;
@@ -1677,6 +1720,13 @@ button.team_button
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.all_rombys 
+	{
+		display: grid;
+		grid-template-columns: auto;
+		margin-top: 100px;
+	}
+	}
 @media screen and (min-width: 900px) and (max-width: 1300px)
 {
 .latest_block9
@@ -1720,5 +1770,160 @@ button.team_button
 {
 	padding-left: 20px;
 	padding-right: 20px;
+}
+.scill_container
+{
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	align-self: center;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.button_scill_1 {
+    width: 80px;
+    height: 35px;
+}
+.button_scill_1:nth-child(3) {
+    width: 80px;
+    height: 35px;
+}
+.button_scill_1:nth-child(4) {
+    width: 80px;
+    height: 35px;
+}
+.something_number {
+    width: 90px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.quote
+	{
+		display: block;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 50px;
+	}
+	.quote > img
+	{
+		margin: 0 auto;
+		float: none;
+	}
+	.quote_icon
+	{
+		display: none;
+	}
+	.one-time
+	{
+   width: 100%;
+   display: block;
+   margin-left: 0;
+	margin-right: 0
+}
+.quote_text p
+{
+	width: 90%;
+	text-align: center;
+	font-family: Raleway, Arial;
+	padding: 30px 20px;
+	font-size: 1em;
+	color: #898989;
+	line-height: 1;
+}
+.autor
+{
+	margin-left: 50%;
+	margin-bottom: 20px;
+	padding-top: 100px;
+	font-family: Raleway, Arial;
+	font-size: 16px;
+	color: #898989;
+	line-height: 1;
+}
+.profession1, .profession2 
+{
+	
+	margin-left: 15%;
+	font-family: Raleway, Arial;
+	font-size: 10px;
+	color: #898989;
+	line-height: 1.5;
+}
+ .autor p
+ {
+ 	margin-left: 10%;
+ }
+ .slick-prev
+{
+	top: 110%;
+	left: 35%;
+	width: 40px;
+	height: 40px;
+
+}
+.slick-prev:before, .slick-next:before
+{
+	font-size: 40px;
+}
+.slick-next
+{
+	top: 110%;
+	right: 35%;
+	width: 40px;
+	height: 40px;
+}
+.be_with_us_container
+{
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: space-evenly;
+	width: 90%;
+	margin-top: 20px;
+}
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+
+}
+.container2
+{
+	width: 90%;
+	text-align: center;
+	 margin: 0 auto;
+}
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 50px;
+}
+.message > input[type="text"] {
+    width: 100%;
+    height: 180px;
+}
+.dws-submit {
+    padding: 20px 75px;
+    margin: 20px 10px 20px 0px;
+    }
+.title1 p::after
+{
+	content: "";
+	width: 30px;
+	height: 4px;
+	background-color: #fd2f2f;
+	margin: 0 auto;
+	display: block;
+}
+.title1
+{
+	margin-bottom: 20px;
+}
+.adress2
+{
+	display: block;
+	margin-top: 30px;
+}
+.title2 p
+{
+	margin-top: 5px;
 }
 }
