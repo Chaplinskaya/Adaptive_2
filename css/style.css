@@ -1312,14 +1312,15 @@ button.team_button
 	text-align: center;
 	padding-top: 20px;
 }
-.something_all {
-    width: 70%;
+.something_all 
+{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-evenly;
     margin: 0 auto;
 }
-.search_window {
+.search_window 
+{
     max-width: 1170px;
     width: 90%;
     height: 50px;
@@ -1334,8 +1335,7 @@ button.team_button
 }
 .box_all 
 {
-    width: 140px;
-    height: 50px;
+    display: none;
 }
 }
 @media screen and (max-width: 1100px)
@@ -1794,7 +1794,7 @@ input[type="text"], input[type="email"] {
     height: 35px;
 }
 .something_number {
-    width: 90px;
+    width: 120px;
     margin-top: 80px;
     margin-bottom: 80px;
 }
