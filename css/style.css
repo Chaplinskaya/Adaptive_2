@@ -129,8 +129,6 @@ button.team_button:hover
 	background-color: #fd2f2f;
 	cursor: pointer;
 }
-
-
 .shape_container
 {
 	display: grid;
@@ -166,7 +164,7 @@ button.team_button:hover
 .shape-block
 {
 	position: relative;
-	margin: 0 auto;
+	margin: -1px auto;
 	width: 275px;
 }
 .shape_in
@@ -181,8 +179,9 @@ button.team_button:hover
 .shape_in p
 {
 	padding: 40px 40px 60px 40px;
-	font-size: 14px;
+	font-size: 15px;
 	text-align: center;
+	font-family: Open Sans;
 }
 h4
 {
@@ -190,6 +189,8 @@ h4
 	padding-top: 45px;
 	padding-bottom: 45px;
 	color: #fff;
+	font-family: Open Sans;
+	font-size: 20px;
 }
 .service
 {
@@ -358,10 +359,11 @@ h3:after
 }
 .mocup_text h2 
 {
-	font-family: Raleway Regular;
+	font-family: Raleway;
 	font-size: 45px;
 	color: white;
 	padding-left: 0;
+	text-transform: uppercase;
 }
 .mocup_text h2::after
 {
@@ -375,7 +377,7 @@ h3:after
 .mocup_text p
 {
 	font-size: 18px;
-	font-family: Raleway Regular;
+	font-family: Raleway;
 	color: white;
 	line-height: 1.5;
 }
@@ -481,7 +483,7 @@ h3:after
 	width: 315px;
 	height: 590px;
 	background-color: white;
-	font-family: Raleway Regular;
+	font-family: Roboto;
 	color: #383838;
 	font-size: 20px;
 	text-align: center;
@@ -491,7 +493,7 @@ h3:after
 }
 .basic_package p
 {
-	font-family: Raleway Regular;
+	font-family: Roboto;
 	color: #383838;
 	font-size: 25px;
 	margin: 0;
@@ -509,6 +511,7 @@ h3:after
 .basic_price
 {
 	margin: 10px 0 20px 0;
+	font-family: Roboto;
 }
 .basic_price span
 {
@@ -517,7 +520,7 @@ h3:after
 .basic_package ul
 {
 	list-style-type: none;
-	font-family: arial;
+	font-family: Lato;
 	list-style-position: inside;
 	padding: 0;
 	margin-left: 20px;
@@ -1008,7 +1011,7 @@ h3:after
 .slick-prev
 {
 	top: 120%;
-	left: 44%;
+	left: 40%;
 	width: 40px;
 	height: 40px;
 
@@ -1311,6 +1314,11 @@ button.team_button
 {
 	text-align: center;
 	padding-top: 20px;
+}
+.toggles button
+{
+	font-size: 12px;
+	margin: 10px 5px;
 }
 .something_all 
 {
