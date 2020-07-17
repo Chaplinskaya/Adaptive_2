@@ -1,1 +1,1 @@
-# Adaptive_2
+# adaptive landing page 
